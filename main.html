@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+    <div class="CONTAINER">
+      <h1>X O</h1>
+      <div class="btnshow">
+        <p id="prg">? | Winner</p>
+        <p class="Ref" onclick="Refrech()">Ref</p>
+      </div>
+
+      <div class="contXO">
+        <span onclick="handelX(event)"></span>
+        <span onclick="handelX(event)"></span>
+        <span onclick="handelX(event)"></span>
+        <span onclick="handelX(event)"></span>
+        <span onclick="handelX(event)"></span>
+        <span onclick="handelX(event)"></span>
+        <span onclick="handelX(event)"></span>
+        <span onclick="handelX(event)"></span>
+        <span onclick="handelX(event)"></span>
+      </div>
+      <div class="POPUP" id="popx">
+        <h3>Congratulation X </h3>
+        <p> You are the winer And more chance again for player O </p>
+      </div>
+      <div class="POPUP" id="popupo">
+      <h3>Congratulation O </h3>
+      <p> You are the winer And more chance again for player X </p>
+      </div>
+  </div>
+
+  </body>
+
+  <script src="./main.js"></script>
+</html>
