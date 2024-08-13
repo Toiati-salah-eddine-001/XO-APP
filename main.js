@@ -1,6 +1,6 @@
 const box = document.getElementsByTagName("span");
 const paragraphe = document.getElementById("prg");
-
+const chek =true;
 // const popx = document.getElementById("popx");
 // const popo = document.getElementById("popupo");
 // const container =document.getElementsByClassName("CONTAINER");
